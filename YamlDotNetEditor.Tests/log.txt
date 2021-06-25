@@ -1,0 +1,50 @@
+2021-06-24 19:06:21.024 -05:00 [INF] Loaded 2 extensions
+2021-06-24 19:06:22.466 -05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.104\
+2021-06-24 19:06:23.840 -05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-24 19:06:23.846 -05:00 [INF] Setting entrypoint to user selected project: C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests\YamlDotNetEditor.Tests.csproj
+2021-06-24 19:06:23.857 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 19:06:23.964 -05:00 [INF] Initializing upgrade step Back up project
+2021-06-24 19:06:29.966 -05:00 [INF] Applying upgrade step Back up project
+2021-06-24 19:06:32.471 -05:00 [INF] Backing up C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests to C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests.backup
+2021-06-24 19:06:32.481 -05:00 [WRN] Could not copy file C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests\log.txt due to 'The process cannot access the file 'C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests\log.txt' because it is being used by another process.'
+2021-06-24 19:06:32.831 -05:00 [INF] Project backed up to C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests.backup
+2021-06-24 19:06:32.834 -05:00 [INF] Upgrade step Back up project applied successfully
+2021-06-24 19:06:40.053 -05:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-24 19:06:45.405 -05:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-06-24 19:06:45.407 -05:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-06-24 19:06:46.843 -05:00 [INF] [dotnet] Conversion complete!
+2021-06-24 19:06:47.700 -05:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-06-24 19:06:52.315 -05:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-06-24 19:06:54.550 -05:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-24 19:06:58.966 -05:00 [INF] Marking package YamlDotNet for removal because it appears to be a transitive dependency
+2021-06-24 19:06:59.124 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:06:59.129 -05:00 [INF] Packages to be removed: YamlDotNet, Version=3.5.1
+2021-06-24 19:07:05.965 -05:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-06-24 19:07:05.967 -05:00 [INF] Removing outdated package reference: YamlDotNet, Version=3.5.1
+2021-06-24 19:07:10.587 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:07:10.589 -05:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-06-24 19:07:19.182 -05:00 [INF] Initializing upgrade step Update TFM
+2021-06-24 19:07:19.207 -05:00 [INF] TFM needs updated to netstandard2.0
+2021-06-24 19:07:28.597 -05:00 [INF] Applying upgrade step Update TFM
+2021-06-24 19:07:35.273 -05:00 [INF] Updated TFM to netstandard2.0
+2021-06-24 19:07:35.274 -05:00 [INF] Upgrade step Update TFM applied successfully
+2021-06-24 19:07:41.463 -05:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-24 19:07:46.128 -05:00 [INF] Marking package xunit, Version=1.9.2 for removal because it doesn't support the target framework but a newer version (2.4.1) does
+2021-06-24 19:07:46.130 -05:00 [WRN] Package xunit has been upgraded across major versions (1.9.2 -> 2.4.1) which may introduce breaking changes
+2021-06-24 19:07:46.142 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:07:46.144 -05:00 [INF] Packages to be removed: xunit, Version=1.9.2
+2021-06-24 19:07:46.146 -05:00 [INF] Packages to be added: xunit, Version=2.4.1
+2021-06-24 19:07:51.061 -05:00 [INF] Applying upgrade step Update NuGet Packages
+2021-06-24 19:07:51.062 -05:00 [INF] Removing outdated package reference: xunit, Version=1.9.2
+2021-06-24 19:07:51.064 -05:00 [INF] Adding package reference: xunit, Version=2.4.1
+2021-06-24 19:07:55.918 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:07:55.920 -05:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-06-24 19:08:07.542 -05:00 [INF] Initializing upgrade step Add template files
+2021-06-24 19:08:07.549 -05:00 [INF] 0 expected template items needed
+2021-06-24 19:08:07.555 -05:00 [INF] Initializing upgrade step Update source code
+2021-06-24 19:08:09.168 -05:00 [INF] Initializing upgrade step Move to next project
+2021-06-24 19:08:13.749 -05:00 [INF] Applying upgrade step Move to next project
+2021-06-24 19:08:13.750 -05:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-24 19:08:17.760 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 19:08:17.763 -05:00 [INF] Initializing upgrade step Finalize upgrade
+2021-06-24 19:08:25.195 -05:00 [INF] Saving upgrade progress file at C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.Tests\.upgrade-assistant

@@ -1,0 +1,47 @@
+2021-06-24 18:59:44.674 -05:00 [INF] Loaded 2 extensions
+2021-06-24 18:59:46.132 -05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.104\
+2021-06-24 18:59:47.402 -05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-24 18:59:47.407 -05:00 [INF] Setting entrypoint to only project in solution: C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib\YamlDotNet.Editor.Lib.csproj
+2021-06-24 18:59:47.417 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 18:59:47.491 -05:00 [INF] Initializing upgrade step Back up project
+2021-06-24 18:59:55.950 -05:00 [INF] Applying upgrade step Back up project
+2021-06-24 19:00:03.879 -05:00 [INF] Backing up C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib to C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib.backup
+2021-06-24 19:00:03.883 -05:00 [WRN] Could not copy file C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib\log.txt due to 'The process cannot access the file 'C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib\log.txt' because it is being used by another process.'
+2021-06-24 19:00:04.189 -05:00 [INF] Project backed up to C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib.backup
+2021-06-24 19:00:04.192 -05:00 [INF] Upgrade step Back up project applied successfully
+2021-06-24 19:00:07.878 -05:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-24 19:00:19.445 -05:00 [INF] Skipping upgrade step Convert project file to SDK style
+2021-06-24 19:00:19.446 -05:00 [INF] Upgrade step Convert project file to SDK style skipped
+2021-06-24 19:00:24.233 -05:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-24 19:00:27.455 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:00:27.460 -05:00 [INF] No package updates needed
+2021-06-24 19:00:27.461 -05:00 [INF] Initializing upgrade step Update TFM
+2021-06-24 19:00:27.468 -05:00 [INF] TFM needs updated to netstandard2.0
+2021-06-24 19:00:43.365 -05:00 [INF] Applying upgrade step Update TFM
+2021-06-24 19:00:43.368 -05:00 [ERR] Unexpected error applying step
+System.InvalidOperationException: Project file only supports setting TFM on new style csproj
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.TargetFrameworkMonikerCollection.SetTargetFramework(TargetFrameworkMoniker tfm) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/TargetFrameworkMonikerCollection.cs:line 40
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.MSBuildProject.SetTFM(TargetFrameworkMoniker tfm) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/MSBuildProject.File.cs:line 61
+   at Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep.ApplyImplAsync(IUpgradeContext context, CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.UpgradeStep.ApplyAsync(IUpgradeContext context, CancellationToken token) in /_/src/common/Microsoft.DotNet.UpgradeAssistant.Abstractions/UpgradeStep.cs:line 170
+2021-06-24 19:01:13.813 -05:00 [INF] Applying upgrade step Update TFM
+2021-06-24 19:01:13.814 -05:00 [ERR] Unexpected error applying step
+System.InvalidOperationException: Project file only supports setting TFM on new style csproj
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.TargetFrameworkMonikerCollection.SetTargetFramework(TargetFrameworkMoniker tfm) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/TargetFrameworkMonikerCollection.cs:line 40
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.MSBuildProject.SetTFM(TargetFrameworkMoniker tfm) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/MSBuildProject.File.cs:line 61
+   at Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep.ApplyImplAsync(IUpgradeContext context, CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.UpgradeStep.ApplyAsync(IUpgradeContext context, CancellationToken token) in /_/src/common/Microsoft.DotNet.UpgradeAssistant.Abstractions/UpgradeStep.cs:line 170
+2021-06-24 19:01:36.789 -05:00 [INF] Skipping upgrade step Update TFM
+2021-06-24 19:01:36.790 -05:00 [INF] Upgrade step Update TFM skipped
+2021-06-24 19:01:39.069 -05:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-24 19:01:41.549 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:01:41.550 -05:00 [INF] No package updates needed
+2021-06-24 19:01:41.550 -05:00 [INF] Initializing upgrade step Add template files
+2021-06-24 19:01:41.555 -05:00 [INF] 0 expected template items needed
+2021-06-24 19:01:41.557 -05:00 [INF] Initializing upgrade step Update source code
+2021-06-24 19:01:42.902 -05:00 [INF] Initializing upgrade step Move to next project
+2021-06-24 19:02:02.621 -05:00 [INF] Applying upgrade step Move to next project
+2021-06-24 19:02:02.621 -05:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-24 19:02:04.143 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 19:02:04.150 -05:00 [INF] Upgrade has completed. Please review any changes.
+2021-06-24 19:02:04.157 -05:00 [INF] Saving upgrade progress file at C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNet.Editor.Lib\.upgrade-assistant

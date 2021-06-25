@@ -1,0 +1,17 @@
+2021-06-24 18:56:20.003 -05:00 [INF] Loaded 2 extensions
+2021-06-24 18:56:20.569 -05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.104\
+2021-06-24 18:56:24.390 -05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-24 18:57:40.334 -05:00 [INF] Skipping upgrade step Select an entrypoint
+2021-06-24 18:57:40.336 -05:00 [INF] Upgrade step Select an entrypoint skipped
+2021-06-24 18:57:47.076 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 18:57:47.082 -05:00 [ERR] Unexpected error initializing step
+System.InvalidOperationException: Entrypoint must be set before using this step
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep.InitializeImplAsync(IUpgradeContext context, CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.UpgradeStep.InitializeAsync(IUpgradeContext context, CancellationToken token) in /_/src/common/Microsoft.DotNet.UpgradeAssistant.Abstractions/UpgradeStep.cs:line 126
+2021-06-24 18:57:57.622 -05:00 [INF] Applying upgrade step Select project to upgrade
+2021-06-24 18:57:57.625 -05:00 [ERR] Unexpected error applying step
+Microsoft.DotNet.UpgradeAssistant.UpgradeException: Project selection step must be initialized before it is applied (null _orderedProjects)
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep.GetProjectAsync(IUpgradeContext context, CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.Steps.Solution.CurrentProjectSelectionStep.ApplyImplAsync(IUpgradeContext context, CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.UpgradeStep.ApplyAsync(IUpgradeContext context, CancellationToken token) in /_/src/common/Microsoft.DotNet.UpgradeAssistant.Abstractions/UpgradeStep.cs:line 170
+2021-06-24 18:58:20.028 -05:00 [INF] No state to save

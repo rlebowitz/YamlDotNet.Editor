@@ -1,0 +1,73 @@
+2021-06-24 19:03:07.556 -05:00 [INF] Loaded 2 extensions
+2021-06-24 19:03:08.750 -05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.104\
+2021-06-24 19:03:10.203 -05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-06-24 19:03:10.210 -05:00 [INF] Setting entrypoint to user selected project: C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor\YamlDotNetEditor.csproj
+2021-06-24 19:03:10.220 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 19:03:10.335 -05:00 [INF] Initializing upgrade step Back up project
+2021-06-24 19:03:15.318 -05:00 [INF] Applying upgrade step Back up project
+2021-06-24 19:03:18.943 -05:00 [INF] Backing up C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor to C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.backup
+2021-06-24 19:03:19.109 -05:00 [WRN] Could not copy file C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor\log.txt due to 'The process cannot access the file 'C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor\log.txt' because it is being used by another process.'
+2021-06-24 19:03:22.761 -05:00 [INF] Project backed up to C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor.backup
+2021-06-24 19:03:22.763 -05:00 [INF] Upgrade step Back up project applied successfully
+2021-06-24 19:03:29.241 -05:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-06-24 19:03:37.157 -05:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-06-24 19:03:37.159 -05:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-06-24 19:03:37.480 -05:00 [ERR] [dotnet] C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor\YamlDotNetEditor.csproj is an unsupported project type. Not all project type guids are supported.
+2021-06-24 19:03:37.482 -05:00 [INF] [dotnet] All supported project type guids:
+2021-06-24 19:03:37.483 -05:00 [INF] [dotnet] 	f184b08f-c81c-45f6-a57f-5abd9991f28f
+2021-06-24 19:03:37.485 -05:00 [INF] [dotnet] 	fae04ec0-301f-11d3-bf4b-00c04f79efbc
+2021-06-24 19:03:37.487 -05:00 [INF] [dotnet] 	60dc8134-eba5-43b8-bcc9-bb4bc16c2548
+2021-06-24 19:03:37.489 -05:00 [INF] [dotnet] All given project type guids:
+2021-06-24 19:03:37.491 -05:00 [INF] [dotnet] 	{82b43b9b-a64c-4715-b499-d71e9ca2bd60}
+2021-06-24 19:03:37.492 -05:00 [ERR] [dotnet] Exited with caller-defined errors
+2021-06-24 19:03:37.493 -05:00 [INF] [dotnet] 	{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}
+2021-06-24 19:03:37.676 -05:00 [FTL] Conversion with try-convert failed.
+2021-06-24 19:03:41.210 -05:00 [WRN] Upgrade step Convert project file to SDK style failed: "Failed": Conversion with try-convert failed.
+2021-06-24 19:03:56.493 -05:00 [INF] Skipping upgrade step Convert project file to SDK style
+2021-06-24 19:03:56.495 -05:00 [INF] Upgrade step Convert project file to SDK style skipped
+2021-06-24 19:03:59.953 -05:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-06-24 19:04:02.813 -05:00 [INF] Marking package Microsoft.VisualStudio.CoreUtility for removal because it appears to be a transitive dependency
+2021-06-24 19:04:02.849 -05:00 [INF] Marking package Microsoft.VisualStudio.Text.Data for removal because it appears to be a transitive dependency
+2021-06-24 19:04:02.854 -05:00 [INF] Marking package Microsoft.VisualStudio.Text.Logic for removal because it appears to be a transitive dependency
+2021-06-24 19:04:02.857 -05:00 [INF] Marking package Microsoft.VisualStudio.Text.UI for removal because it appears to be a transitive dependency
+2021-06-24 19:04:02.862 -05:00 [INF] Marking package Microsoft.VisualStudio.Text.UI.Wpf for removal because it appears to be a transitive dependency
+2021-06-24 19:04:02.872 -05:00 [INF] Marking package YamlDotNet for removal because it appears to be a transitive dependency
+2021-06-24 19:04:02.993 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:04:03.006 -05:00 [INF] Packages to be removed: Microsoft.VisualStudio.CoreUtility, Version=16.10.230
+Microsoft.VisualStudio.Text.Data, Version=16.10.230
+Microsoft.VisualStudio.Text.Logic, Version=16.10.230
+Microsoft.VisualStudio.Text.UI, Version=16.10.230
+Microsoft.VisualStudio.Text.UI.Wpf, Version=16.10.230
+YamlDotNet, Version=3.5.1
+2021-06-24 19:04:24.837 -05:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-06-24 19:04:24.840 -05:00 [INF] Removing outdated package reference: Microsoft.VisualStudio.CoreUtility, Version=16.10.230
+2021-06-24 19:04:24.842 -05:00 [INF] Removing outdated package reference: Microsoft.VisualStudio.Text.Data, Version=16.10.230
+2021-06-24 19:04:24.843 -05:00 [INF] Removing outdated package reference: Microsoft.VisualStudio.Text.Logic, Version=16.10.230
+2021-06-24 19:04:24.844 -05:00 [INF] Removing outdated package reference: Microsoft.VisualStudio.Text.UI, Version=16.10.230
+2021-06-24 19:04:24.845 -05:00 [INF] Removing outdated package reference: Microsoft.VisualStudio.Text.UI.Wpf, Version=16.10.230
+2021-06-24 19:04:24.846 -05:00 [INF] Removing outdated package reference: YamlDotNet, Version=3.5.1
+2021-06-24 19:04:28.336 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:04:28.346 -05:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-06-24 19:04:39.654 -05:00 [INF] Initializing upgrade step Update TFM
+2021-06-24 19:04:39.692 -05:00 [INF] TFM needs updated to net5.0-windows
+2021-06-24 19:04:46.821 -05:00 [INF] Applying upgrade step Update TFM
+2021-06-24 19:04:46.831 -05:00 [ERR] Unexpected error applying step
+System.InvalidOperationException: Project file only supports setting TFM on new style csproj
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.TargetFrameworkMonikerCollection.SetTargetFramework(TargetFrameworkMoniker tfm) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/TargetFrameworkMonikerCollection.cs:line 40
+   at Microsoft.DotNet.UpgradeAssistant.MSBuild.MSBuildProject.SetTFM(TargetFrameworkMoniker tfm) in /_/src/components/Microsoft.DotNet.UpgradeAssistant.MSBuild/MSBuildProject.File.cs:line 61
+   at Microsoft.DotNet.UpgradeAssistant.Steps.ProjectFormat.SetTFMStep.ApplyImplAsync(IUpgradeContext context, CancellationToken token)
+   at Microsoft.DotNet.UpgradeAssistant.UpgradeStep.ApplyAsync(IUpgradeContext context, CancellationToken token) in /_/src/common/Microsoft.DotNet.UpgradeAssistant.Abstractions/UpgradeStep.cs:line 170
+2021-06-24 19:05:02.885 -05:00 [INF] Skipping upgrade step Update TFM
+2021-06-24 19:05:02.886 -05:00 [INF] Upgrade step Update TFM skipped
+2021-06-24 19:05:06.617 -05:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-06-24 19:05:09.519 -05:00 [WRN] .NET Upgrade Assistant analyzer NuGet package reference cannot be added because the package cannot be found
+2021-06-24 19:05:09.529 -05:00 [INF] No package updates needed
+2021-06-24 19:05:09.530 -05:00 [INF] Initializing upgrade step Add template files
+2021-06-24 19:05:09.537 -05:00 [INF] 0 expected template items needed
+2021-06-24 19:05:09.543 -05:00 [INF] Initializing upgrade step Update source code
+2021-06-24 19:05:11.442 -05:00 [INF] Initializing upgrade step Move to next project
+2021-06-24 19:05:31.053 -05:00 [INF] Applying upgrade step Move to next project
+2021-06-24 19:05:31.054 -05:00 [INF] Upgrade step Move to next project applied successfully
+2021-06-24 19:05:35.735 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-06-24 19:05:35.797 -05:00 [INF] Upgrade has completed. Please review any changes.
+2021-06-24 19:05:35.805 -05:00 [INF] Saving upgrade progress file at C:\Users\Rob\Source\Repos\YamlDotNet.Editor\YamlDotNetEditor\.upgrade-assistant

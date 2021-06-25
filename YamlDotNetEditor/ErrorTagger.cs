@@ -24,6 +24,7 @@ using Microsoft.VisualStudio.Text.Tagging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using YamlDotNet.Core;
 using YamlDotNet.Core.Tokens;
 using YamlDotNet.Editor.Lib;
 
@@ -33,7 +34,7 @@ namespace YamlDotNetEditor
 	{
 		private readonly ITextBuffer _textBuffer;
 		private readonly TextBufferParser _parser;
-		private readonly Dictionary<string, int> _anchors = new Dictionary<string, int>();
+		private readonly Dictionary<AnchorName, int> _anchors = new Dictionary<AnchorName, int>();
 
 		public ErrorTagger(ITextBuffer textBuffer, TextBufferParser parser)
 		{
